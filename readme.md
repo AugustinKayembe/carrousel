@@ -11,3 +11,8 @@
 - Débuter le carrousel
 - Afficher le conteneur du carrousel avec une animation
 - Afficher les images de la galerie dans le carrousel
+
+#### Références
+
+- https://github.com/AugustinKayembe
+- https://cidweb8.sg-host.com/
