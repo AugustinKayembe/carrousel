@@ -1,4 +1,4 @@
-# lab#4
+# Exercice #2 
 
 ## 4w4 - Conception d'interface et développement web
 
@@ -6,13 +6,9 @@
 
 #### Description
 
-- Ajouter quelques champs personnalisés pour la page d'accueil
-- Utilisez des types de champs qu'on a pas encore utilisé
-- Débuter le carrousel
-- Afficher le conteneur du carrousel avec une animation
-- Afficher les images de la galerie dans le carrousel
+- Ajouter les fonctionnalités au carrousel
+
 
 #### Références
 
-- https://github.com/AugustinKayembe
 - https://cidweb8.sg-host.com/
