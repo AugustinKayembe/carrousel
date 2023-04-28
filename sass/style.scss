@@ -1,55 +1,67 @@
 .carrousel { // boîte modale 
-    position : fixed;
-    width : 50%;
-    height : 50%;
-    top : 25%;
-    left : 25%;
-    border: 1px solid #aaa;
-    background-color: aquamarine;
-    transform : scale(0);
-    transition : transform .5s;
-   // overflow-y: hidden;
-    
+  position : fixed;
+  width : 50%;
+  height : 50%;
+  top : 25%;
+  left : 25%;
+  border: 1px solid #aaa;
+  background-color: aquamarine;
+  transform : scale(0);
+  transition : transform .5s;
+ // overflow-y: hidden;
+  
 }
 
 .carrousel--activer {
-    transform : scale(1);
+  transform : scale(1);
 }
 
 .carrousel__x{
-    position : absolute;
-    top :3px;
-    right : 3px;
-    z-index : 3;
+  position : absolute;
+  top :3px;
+  right : 3px;
+  z-index : 3;
 }
 
 .carrousel__figure {
-   
-    width : 100%;
-    height: 100%;
+ 
+  width : 100%;
+  height: 100%;
 }
- 
+
 .carrousel__img {
-    display : block;
-    position : absolute;
-    object-fit:cover;
-    width : 100%;
-    height : 100%;
-    opacity: 0;
- 
+  display : block;
+  position : absolute;
+  object-fit:cover;
+  width : 100%;
+  height : 100%;
+  opacity: 0;
+
 }
 
 .carrousel__form {
-    display: block;
-    text-align: center;
-
-    position : absolute;
-    bottom : 0;
-    border: 1px solid #fff;
-    width : 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #fff;
 }
+
 .carrousel__rad {
-    display: inline-block;
-    margin : 4px;
+  display: inline-block;
+  margin : 4px;
 }
 
+.carrousel__ouvrir {
+  position: relative;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
