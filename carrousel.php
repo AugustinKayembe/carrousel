@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin name: Carrousel Eddy
- * Author: Eddy Martin
- * Author URI: https://github.com/eddytuto
+ * Plugin name: Carrousel 
+ * Author: 
+ * Author URI: https://github.com/
  * Description: Cette extension carrousel permettra d'afficher dans une boîte modale animée les images d'une galerie
  * Version: 1.0.0
  */
@@ -31,10 +31,15 @@ function creation_carrousel()
 {
     return "<button class='carrousel__ouvrir'>Ouvrir le carrousel</button>
     <div class='carrousel'>
+     
+    
     <button class='carrousel__x'>X</button>
     <figure class='carrousel__figure'></figure>
     <form class='carrousel__form'></form>
     </div> <!-- fin du carrousel -->
     ";
+
+
 }
 add_shortcode('carrousel', 'creation_carrousel');
+
